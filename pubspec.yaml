@@ -1,0 +1,40 @@
+name: sav_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+
+  fonts:
+    - family: airbnb-cereal
+      fonts:
+        - asset: assets/font/airbnb-cereal/AirbnbCereal_W_Bk.otf
+        - asset: assets/font/airbnb-cereal/AirbnbCereal_W_Lt.otf
+          weight: 300
+        - asset: assets/font/airbnb-cereal/AirbnbCereal_W_Md.otf
+          weight: 500
+        - asset: assets/font/airbnb-cereal/AirbnbCereal_W_Bk.otf
+          weight: 600
+        - asset: assets/font/airbnb-cereal/AirbnbCereal_W_XBd.otf
+          weight: 700
+
